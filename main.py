@@ -34,7 +34,7 @@ else:
    print(" Good after a second of waiting you realize there is a gang of rapist in there\n ")
    print(" you run...\n")
    print("later in the day you come to a old zoo\n")
-   choice3 = input("do you go in creepy old zoo: yes or no" )
+   choice3 = input("do you go in creepy old zoo: yes or no\n" )
   if choice3 == "no":
        print(" the gang of r found you ....got raped to death")
   else:
