@@ -21,6 +21,22 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.") 
-
+print("Your mission is to find the treasure.")   
+choice  = input(" you come to a fork in the road, you could go left or right :")
+if choice  == "right":
+  print(" you are Death")
+else:
+  print(" your on the right path...\n you come to a old gas station ")
+  choice2 = input(" do you go in old gas station : yes or no ")
+  if choice2 =="yes":
+   print(" oh no, you   death..sorry better luck next time")
+  else:
+   print(" Good after a second of waiting you realize there is a gang of rapist in there\n ")
+   print(" you run...\n")
+   print("later in the day you come to a old zoo\n")
+   choice3 = input("do you go in creepy old zoo: yes or no" )
+  if choice3 == "no":
+       print(" the gang of r found you ....got raped to death")
+  else:
+         print(" you made it , you live the zoo for ever and found gold")
 #https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
